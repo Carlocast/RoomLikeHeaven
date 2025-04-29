@@ -1,1 +1,0 @@
-export default function RendicontiHostPage() { return (<div><h1>Rendiconti Host</h1></div>); }
