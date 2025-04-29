@@ -1,0 +1,1 @@
+'use client'; import { useParams } from 'next/navigation'; export default function CalendarioCasaPage() { const { id } = useParams(); return (<div><h1>Calendario Prenotazioni per Casa {id}</h1></div>); }

@@ -1,0 +1,1 @@
+export default function RegistratiPage() { return (<div><h1>Registrazione Nuovo Utente</h1></div>); }

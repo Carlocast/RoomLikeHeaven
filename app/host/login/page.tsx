@@ -1,0 +1,1 @@
+export default function HostLoginPage() { return (<div><h1>Login Host</h1></div>); }

@@ -1,12 +1,15 @@
-export default function Case() {
+import { caseDati } from "@/utils/dataCase";
+import CardCasa from "@/components/CardCasa";
+
+export default function CasePage() {
   return (
-    <div>
-      <h1>Le Nostre Case</h1>
-      <ul>
-        <li>Casa 1 - Roma</li>
-        <li>Casa 2 - Firenze</li>
-        <li>Casa 3 - Venezia</li>
-      </ul>
+    <div className="min-h-screen bg-gray-50 p-8">
+      <h1 className="text-3xl font-bold mb-8 text-center">Le Nostre Case</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        {caseDati.map((casa) => (
+          <CardCasa key={casa.id} casa={casa} />
+        ))}
+      </div>
     </div>
   )
 }

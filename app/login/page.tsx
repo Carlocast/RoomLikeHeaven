@@ -1,0 +1,1 @@
+export default function LoginPage() { return (<div><h1>Login Utente</h1><p>Accedi per prenotare</p></div>); }

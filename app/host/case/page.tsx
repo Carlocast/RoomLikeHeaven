@@ -1,0 +1,1 @@
+export default function HostCasePage() { return (<div><h1>Gestisci le tue Case</h1></div>); }

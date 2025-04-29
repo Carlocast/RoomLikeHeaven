@@ -1,0 +1,1 @@
+'use client'; import { useParams } from 'next/navigation'; export default function GestioneCasaHostPage() { const { id } = useParams(); return (<div><h1>Gestisci Casa {id}</h1></div>); }

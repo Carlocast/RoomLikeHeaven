@@ -1,0 +1,1 @@
+export default function DashboardHostPage() { return (<div><h1>Dashboard Host</h1></div>); }
